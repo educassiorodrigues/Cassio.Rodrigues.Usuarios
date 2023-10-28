@@ -5,9 +5,15 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cassio.Rodrigues.Usuarios.Api", "src\Cassio.Rodrigues.Usuarios.Api\Cassio.Rodrigues.Usuarios.Api.csproj", "{0EAA0B1F-943C-4F01-AF42-91FD57CDE54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cassio.Rodrigues.Usuarios.Domain", "src\Cassio.Rodrigues.Usuarios.Domain\Cassio.Rodrigues.Usuarios.Domain.csproj", "{BEFA90A2-F5AA-4FD8-A013-D004F74AE52E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cassio.Rodrigues.Usuarios.Domain", "src\Cassio.Rodrigues.Usuarios.Domain\Cassio.Rodrigues.Usuarios.Domain.csproj", "{BEFA90A2-F5AA-4FD8-A013-D004F74AE52E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cassio.Rodrigues.Usuarios.Infra.Data", "src\Cassio.Rodrigues.Usuarios.Infra.Data\Cassio.Rodrigues.Usuarios.Infra.Data.csproj", "{CB647360-E1DD-48D1-BD04-953979A3BBFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cassio.Rodrigues.Usuarios.Infra.Data", "src\Cassio.Rodrigues.Usuarios.Infra.Data\Cassio.Rodrigues.Usuarios.Infra.Data.csproj", "{CB647360-E1DD-48D1-BD04-953979A3BBFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{575E943E-E374-4D46-8CA5-622B65AF9C0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{8AEA552F-C11E-4B26-A023-D49F9EEC2A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3  -Data", "3  -Data", "{585A2DE6-124D-4ACA-8F22-7C1908D0C5F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EAA0B1F-943C-4F01-AF42-91FD57CDE54C} = {575E943E-E374-4D46-8CA5-622B65AF9C0F}
+		{BEFA90A2-F5AA-4FD8-A013-D004F74AE52E} = {8AEA552F-C11E-4B26-A023-D49F9EEC2A96}
+		{CB647360-E1DD-48D1-BD04-953979A3BBFD} = {585A2DE6-124D-4ACA-8F22-7C1908D0C5F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBEF7C9D-4DB9-40BD-A6DE-1D91CBB03F56}
